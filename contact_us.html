@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Sy Quynh">
+        <meta name="description" content="This page is the little Taco Shop">
+        <title>Contact Us - LTS</title>
+        <link rel="icon" href="anh/banhtaco.png" type="image/x-icon" />
+        <link rel="stylesheet" href="formChu.css" type="text/css" />
+    </head>
+    <body>
+        <header>
+            <h1>Contact Us</h1>
+
+            <nav aria-label="primary-navigation">
+                <ul>
+                    <li>
+                        <a href="project_dauTien.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="store.html">Store Hours</a>
+                    </li>
+                    <li>
+                        <a href="contact_us.html">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <figure>
+                <img src="anh/shop.jpg" 
+                alt="Tacos Shop"
+                title="Tacos Shop"
+                width="350"
+                height="400"
+                loading="lazy">
+                <figcaption>Little Taco Shop Tacos</figcaption>
+            </figure>
+
+
+        </header>
+        
+        <main>
+            <section>
+            <h2>Ourt Contact Form</h2>
+            <form action="http://httpbin.org/get" method="get">
+
+                <fieldset>
+                    <legend>Send Us a Message</legend>
+                    <p>
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" placeholder="your name" autocomplete="on"  >
+                    </p>
+                    <p>
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="your name" autocomplete="on">
+                    </p>
+                    <p>
+                        <label for="message">Your Message: </label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type ypur message here"></textarea>
+                        <br>
+                    </p>
+                </fieldset>
+
+                <button type="submit" formaction="https://httpbin.org/post" formmethod ="post">Send</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+
+            <br>
+        
+        <section>
+            <h2>Our Location</h2>
+            <address>555 Taco Temptation Lane, Suite T Kansas City, MO 55555-5555</address>
+            <br><br>  
+            Phone: <a href="tel:+84849100903">0849100903</a>
+
+            <br><br>
+            <a href="#">Back To Top</a>
+
+            
+        </section>
+        </main>
+
+        <hr>
+        
+        <footer>
+            <p>Copyright &copy; The Littel Taco Shop by SQ</p>
+        </footer>
+
+    </body>
+</html>
+
